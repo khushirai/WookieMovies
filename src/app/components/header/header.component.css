@@ -1,0 +1,35 @@
+ .navbar {
+	 height: 65px;
+	 background-color: #212121;
+	 padding: 0 47px;
+	 margin: 0 auto;
+	 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+ .navbar .navbar-brand {
+	 color: red !important;
+	 margin-right: 2rem;
+	 font-size: 24px;
+}
+ .navbar .navbar-nav .nav-item {
+	 margin-right: 10px;
+}
+ .navbar .navbar-nav .nav-link {
+	 color: red !important;
+	 font-size: 17px;
+	 font-weight: 450;
+}
+ @media (max-width: 640px) {
+	 .navbar .listMenu {
+		 display: none;
+	}
+}
+ @media (max-width: 640px) {
+	 .navbar {
+		 height: auto;
+		 padding: 0 15px;
+	}
+}
+.leftBar{
+	display:flex;
+	flex-direction: column;
+}

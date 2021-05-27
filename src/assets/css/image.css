@@ -1,0 +1,95 @@
+/* .backdrop_ .head {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+}
+@media (min-width: 1024px) {
+    .backdrop_ .head {
+        margin-bottom: 2rem;
+   }
+}
+.backdrop_ .title {
+    font-size: 1.8rem;
+    letter-spacing: 0.4px;
+}
+@media (min-width: 1024px) {
+    .backdrop_ .title {
+        font-size: 2.4rem;
+   }
+}
+.backdrop_ .count {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #abb7c4;
+    letter-spacing: 0.4px;
+}
+@media (min-width: 992px) {
+    .backdrop_ .count {
+        font-size: 1.4rem;
+   }
+}
+.backdrop_ .items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.4rem;
+    margin-left: -0.4rem;
+}
+.backdrop_ .item {
+    padding: 0.4rem;
+}
+.backdrop_ .backdrop_ {
+    width: 50%;
+}
+@media (min-width: 576px) {
+    .backdrop_ .backdrop_ {
+        width: 33.3333333%;
+   }
+}
+@media (min-width: 768px) {
+    .backdrop_ .backdrop_ {
+        width: 25%;
+   }
+}
+@media (min-width: 1500px) {
+    .backdrop_ .backdrop_ {
+        width: 20%;
+   }
+}
+@media (min-width: 1800px) {
+    .backdrop_ .backdrop_ {
+        width: 16.6666667%;
+   }
+}
+@media (min-width: 2500px) {
+    .backdrop_ .backdrop_ {
+        width: 14.2857143%;
+   }
+}
+.poster {
+    width: 33.3333333%;
+}
+@media (min-width: 640px) {
+    .poster {
+        width: 25%;
+   }
+}
+@media (min-width: 1024px) {
+     .poster {
+        width: 20%;
+   }
+}
+@media (min-width: 1500px) {
+     .poster {
+        width: 16.6666667%;
+   }
+}
+@media (min-width: 1800px) {
+     .poster {
+        width: 14.2857143%;
+   }
+}
+@media (min-width: 2500px) {
+    .poster {
+        width: 12.5%;
+   }
+} */

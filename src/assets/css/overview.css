@@ -1,0 +1,146 @@
+@media (min-width: 1024px) {
+    .info {
+        display: flex;
+   }
+}
+.info__movies {
+    display: flex;
+    align-items: initial;
+}
+.left {
+    display: none;
+}
+@media (min-width: 1024px) {
+    .left {
+        display: block;
+        width: 25%;
+        max-width: 400px;
+        padding-right: 3rem;
+   }
+}
+@media (min-width: 1200px) {
+    .left {
+        padding-right: 5rem;
+   }
+}
+@media (min-width: 1024px) {
+    .right {
+        flex: 1;
+   }
+}
+.poster {
+    position: relative;
+    height: 0;
+    padding-top: 150.27%;
+    overflow: hidden;
+    background-color: #dc4666;
+}
+.poster img, .poster span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.poster span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overview {
+    max-width: 1000px; 
+     margin-bottom: 3rem; 
+     color:white;
+     font-family: sans-serif;
+   
+    
+}
+ @media (min-width: 1200px) {
+    .overview {
+        font-size: 1.6rem;
+   }
+} 
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.4px;
+    color:white;
+    font-family: sans-serif;
+}
+@media (min-width: 1200px) {
+    .title {
+        font-size: 2.2rem;
+        font-family: sans-serif;
+   }
+}
+ .stats {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    color:white;
+} 
+@media (min-width: 1200px) {
+    .stats {
+        font-size: 1.6rem;
+   }
+}
+@media (min-width: 1024px) {
+    .stats ul {
+        display: flex;
+        flex-wrap: wrap;
+   }
+}
+.stats li {
+    display: flex;
+    padding: 0.2rem 0;
+}
+@media (min-width: 1024px) {
+    .stats li {
+        width: 50%;
+   }
+}
+@media (min-width: 1400px) {
+    .stats li {
+        width: 100%;
+   }
+}
+.stats a {
+    color: #2196f3;
+    text-decoration: underline;
+}
+.label {
+    flex: 1;
+    max-width: 90px;
+    margin-right: 1.5rem;
+    color:white;
+}
+@media (min-width: 640px) {
+    .label {
+        max-width: 110px;
+   }
+}
+.value {
+    flex: 2;
+}
+.external ul {
+    display: flex;
+    margin-left: -0.5rem;
+}
+.external a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.4rem;
+    height: 4.4rem;
+}
+.external a svg {
+    transition: all 0.3s ease-in-out;
+}
+.external a:hover svg, .external a:focus svg {
+    fill: #2196f3;
+}
+.comma_ {
+    margin-right: 9px;
+}
+.comma_:not(:last-child):after {
+    content: ',';
+}
